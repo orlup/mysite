@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Olumide Olaniyi Resume</title>
+        <style>
+            .footer{
+                text-align: center;
+                padding: 10px;
+                background-color: #4929c0;
+            }
+            table{
+                width: 100%;
+                border: 1px solid black;
+
+            }
+            dt{
+                font-weight: bold;
+                font-size: 1.2em;
+            }
+            section{
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+            }
+        </style>
+	</head>
+	<body>
+        <header class="header"><h1>Olumide Olaniyi Resume</h1></header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Exp">Experience</a></li>
+                <li><a href="#Edu">Education</a></li>
+                <li><a href="#Int">Interest</a></li>
+                <li><a href="#Ski">Skills</a></li>
+                <li><a href="#Con">Contact</a></li>
+            </ul>
+        </nav>
+        <article><p>Welcome to my Website, hope you enjoy it.</p>
+            <hr>
+            <p>My name is Olumide Olaniyi</p>
+        </article>
+        <section id="Exp">
+            <h2>Experience</h2>
+            <table>
+                <colgroup>
+                    <col span="1" style="background-color: #ddd;">
+                </colgroup>
+                <tr>
+                    <th>Company</th>
+                    <th>Details</th>
+                    <th>Years</th>
+                </tr>
+                <tr>
+                    <td>URMAAS</td>
+                    <td>Actuarial Analyst</td>
+                    <td>2019 - 2023</td>
+                </tr>
+                <tr>
+                    <td>Freelife</td>
+                    <td>Playing Games</td>
+                    <td>2020 - 2021</td>
+                </tr>
+                <tr>
+                    <td>Bookish</td>
+                    <td>Doing Exams</td>
+                    <td>2022 - 2023</td>
+                </tr>
+            </table>
+            
+        </section>
+        <section id="Edu">
+            <h2>Education</h2>
+            <dl>
+                <dt>Redeemers University</dt>
+                <dd>Bachelor of Science</dd>
+                <dt>Degree</dt>
+                <dd>Actuarial Science</dd>
+                
+            </dl>
+        </section>
+        <section id="Int">
+            <h2>Interest</h2>
+            <ul>
+                <li>Computers</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Building Applications</li>
+                <li>Building Websites</li>
+                <li>Becoming a Loss Adjuster</li>
+                <li>Becoming an Actuary</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+        <section id="Ski">
+            <h2>Skills</h2>
+            <ol>
+                <li>Python for Data Science</li>
+                <li>SQL
+                    <ul>
+                        <li>MS Transact SQL</li>
+                        <li>MySQL for Data Science</li>
+                    </ul>
+                </li>
+                <li>Visualization Softwares
+                    <ul>
+                        <li>PowerBi</li>
+                        <li>Tableau</li>
+                    </ul>
+                </li>
+                <li>Excel</li>
+            </ol>
+        </section>
+        <section id="Con">
+            <h2>Contact Me</h2>
+            <p>
+                Contact me at my email: <a href="mailto:holumidei@gmail.com">My Email Address</a>
+            </p>
+        </section>
+        <footer class="footer">Copyright © 2023 Olumide Olaniyi Content please contact me to find out more.</footer>
+	</body>
+
+
+
+</html>
